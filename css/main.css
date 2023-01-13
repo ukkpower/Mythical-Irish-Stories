@@ -1,0 +1,132 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #ecddc5;
+    background-image: url(../imgs/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: #fff;
+}
+
+h1, h2, h3 {
+    font-family: 'MedievalSharp', cursive;
+    color: #ad8872;
+}
+
+button {
+    font-family: 'MedievalSharp', cursive;
+    background-color: #392a18 !important;
+    border-color: #dac9af !important;
+    color:  #dac9af !important;;
+}
+
+.navbar {
+    background-color: black;
+    margin-bottom: 100px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #dac9af;
+}
+
+.cart {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.cart-basket {
+    font-size: .6rem;
+    position: absolute;
+    top: -6px;
+    right: -5px;
+    width: 15px;
+    height: 15px;
+    color: #fff;
+    background-color: #418deb;
+    border-radius: 50%;
+  }
+
+  .banner {
+    position: relative;
+    background-image: url(../imgs/banner-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #warrior {
+    position: absolute;
+    height: 450px;
+    width: auto;
+  }
+
+  .card {
+    color: #392a18;
+  }
+
+  .new-badge {
+    background-color: #4a371f;
+    color: #dac9af;
+  }
+
+  .book-img-overlay {
+    position: absolute;
+    top: -2em;
+    width: 100%;
+}
+
+
+  #coming-soon {
+    background-color: #2a322e;
+    position: relative;
+  }
+
+  .background-overlay {
+    background-image: url(https://demo.moxcreative.com/prokit/wp-content/uploads/sites/32/2021/05/crossing-line-patterned-background.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+  .feature-title {
+    font-size: 3rem;
+  }
+
+  @supports (-webkit-text-stroke: 1px black) {
+    .feature-title {
+      -webkit-text-stroke: 2px #ab8b76;
+      -webkit-text-fill-color: #352b22;
+    }
+  }
+
+  #features >p, .feature >p {
+    color: #392a18;
+  }
+
+  .footer-top {
+    margin-top: 100px;
+    height: 80px;
+    background-image: url(../imgs/footer-top.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #footer {
+    position: relative;
+    background-color: #40322a;
+    color: #ad8872 !important;
+    display: flex;
+  }
+
+  #footer a{
+    color: #ad8872;
+
+  }
+
